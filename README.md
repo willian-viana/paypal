@@ -1,40 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Code Challenge: Payment Transaction Dashboard
+Estimated time for completion: 30 minutes
 
-## Getting Started
+## Problem Statement:
+You are tasked with building a prototype of a payment transaction dashboard using React.js and TypeScript. Your goal is to create a web application that simulates displaying payment transaction data. The application should allow users to view a list of payment transactions and filter transactions by date range.
 
-First, run the development server:
+## Requirements:
+- Create a React.js application that displays a list of payment transactions.
+- Implement a mock API to simulate fetching payment transaction data. You can use a JavaScript array to store mock data.
+- Display the following information for each payment transaction: Transaction ID, Date, Description, Amount (in USD)
+- Implement error handling for API requests. If the API request fails, display an error message to the user.
+- Design the user interface to be clean and responsive using CSS and HTML. You can use any CSS framework or libraries of your choice.
+- Use TypeScript for type-checking and ensure type safety throughout your code.
+- Add a date range filter to allow users to filter transactions by a specified date range.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Bonus Points (Optional):
+- Implement pagination to show a limited number of transactions per page.
+- Add sorting functionality to allow users to sort transactions by date or amount.
+- Create a summary section that displays the total number of transactions and the total transaction amount within the selected date range.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Constraints:
+- Third-party APIs are not allowed. You must use a mock API for data.
+- You can use any libraries or packages you find suitable for this task.
+- The application should be designed with best practices for performance, maintainability, and scalability in mind.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Evaluation Criteria:
+- Code organization and structure.
+- Correctness and functionality of the application.
+- Proper error handling and user feedback.
+- Code quality, adherence to TypeScript best practices, and readability.
+- Responsive and visually appealing user interface.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
