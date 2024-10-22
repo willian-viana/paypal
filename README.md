@@ -30,3 +30,7 @@ You are tasked with building a prototype of a payment transaction dashboard usin
 - Code quality, adherence to TypeScript best practices, and readability.
 - Responsive and visually appealing user interface.
 
+---
+
+## Demo
+![screenshot](/public/screenshot.png)
